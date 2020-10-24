@@ -10,7 +10,11 @@ Node* head();
 
 void addToFinal(Node* head, int value);
 
-void addToInitial(Node* head, int value);
+Node* addToInitial(Node* head, int value);
+
+void removeFinal(Node* head);
+
+Node* removeInitial(Node* head);
 
 void printList(Node* head);
 
