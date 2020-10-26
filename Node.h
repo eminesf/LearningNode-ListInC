@@ -18,5 +18,6 @@ Node* removeInitial(Node* head);
 
 void printList(Node* head);
 
+void removeChosenNode(Node* node, int value);
 
 #endif // NODE_H_INCLUDED

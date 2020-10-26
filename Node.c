@@ -71,3 +71,23 @@
             current = current->proximo;
         }
     }
+
+    void removeChosenNode(Node* head, int value){
+        if(head->proximo == NULL && head->info == value){
+            free(head);
+            return;
+        }
+
+        Node* current = head;
+
+        while(current->proximo != NULL){
+            if(current->proximo->info == value){
+                printf("meu valor atual: %d\n", current->info);
+                current->proximo = current->proximo->proximo;
+
+            } else{
+                current = current->proximo;
+            }
+        }
+    }
+
