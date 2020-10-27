@@ -1,13 +1,13 @@
 # depslib dependency file v1.0
-1603680153 source:c:\users\emili\documents\c\teste\aprendendonode\main.c
+1603822517 source:c:\users\emili\documents\c\teste\aprendendonode\main.c
 	<stdio.h>
 	<stdlib.h>
 	"Node.h"
 	"Node.c"
 
-1603678015 c:\users\emili\documents\c\teste\aprendendonode\node.h
+1603685670 c:\users\emili\documents\c\teste\aprendendonode\node.h
 
-1603680865 c:\users\emili\documents\c\teste\aprendendonode\node.c
+1603823618 c:\users\emili\documents\c\teste\aprendendonode\node.c
 	<stdio.h>
 	<stdlib.h>
 	"Node.h"

@@ -20,4 +20,6 @@ void printList(Node* head);
 
 void removeChosenNode(Node* node, int value);
 
+Node* addByOrderNode(Node* head, int value);
+
 #endif // NODE_H_INCLUDED

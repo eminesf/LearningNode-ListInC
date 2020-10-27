@@ -43,6 +43,20 @@ int main()
 
     printList(head);
 
+    printf("adicionando de forma ordenada:\n");
+
+    head = addByOrderNode(head, 0);
+    head = addByOrderNode(head, -1);
+    head = addByOrderNode(head, -10);
+    head = addByOrderNode(head, -2);
+    head = addByOrderNode(head, -7);
+    head = addByOrderNode(head, 10);
+    head = addByOrderNode(head, 7);
+
+
+
+    printList(head);
+
 
 
 

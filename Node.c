@@ -91,3 +91,30 @@
         }
     }
 
+    Node* addByOrderNode(Node* head, int value){
+        Node* current = head;
+
+        if(value <= current->info){
+            return addToInitial(head, value);
+        } else {
+            while(current->proximo != NULL){
+                Node* anterior = current;
+                current = current->proximo;
+
+                if(current->info >= value){
+                    Node* newNode = create();
+                    newNode->proximo = current;
+                    newNode->info = value;
+                    anterior->proximo = newNode;
+                    return head;
+                }
+            }
+            if(current->proximo == NULL){
+                addToFinal(head, value);
+                return head;
+            }
+            return head;
+        }
+        return;
+    }
+
